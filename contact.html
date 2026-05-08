@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Contact - Personal Bootstrap Template</title>
+  <title>Contact - Gokul Bootstrap Template</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -28,8 +28,8 @@
   <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: Personal
-  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+  * Template Name: Gokul
+  * Template URL: https://bootstrapmade.com/Gokul-free-resume-bootstrap-template/
   * Updated: Mar 05 2025 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
@@ -79,46 +79,21 @@
       -->
 
       <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+      <ul>
+        <li><a class="nav-link scrollto" href="index.html">Home</a></li>
 
-          <li class="dropdown">
-            <a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="about-cloud.html">Cloud & Data Engineering</a></li>
-              <li><a href="about-creative.html">Creative & Media</a></li>
-            </ul>
-          </li>
+        <li><a href="about-cloud.html">About</a></li>
 
-          <li class="dropdown">
-            <a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="services-cloud.html">Cloud & Data Engineering</a></li>
-              <li><a href="services-creative.html">Creative & Media</a></li>
-            </ul>
-          </li>
+        <li><a href="services-cloud.html">Services</a></li>
 
-          <li class="dropdown">
-            <a href="#"><span>Portfolio</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="portfolio-cloud.html">Cloud & Data Engineering</a></li>
-              <li><a href="portfolio-creative.html">Creative & Media</a></li>
-            </ul>
-          </li>
+        <li><a href="portfolio-cloud.html">Portfolio</a></li>
 
-          <li class="dropdown">
-            <a href="#"><span>Resume</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="resume-cloud.html">Cloud & Data Engineering</a></li>
-              <li><a href="resume-creative.html">Creative & Media</a></li>
-            </ul>
-          </li>
+        <li><a href="resume-cloud.html">Resume</a></li>
 
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-        </ul>
-      </nav>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+    </nav>
 
     </div>
   </header>
@@ -132,7 +107,7 @@
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
               <h1>Contact</h1>
-              <p class="mb-0">I work at the intersection of cloud engineering, data, and creative media, helping ideas grow into reliable and expressive solutions. Every project starts with understanding, intention, and care for the details. Feel free to reach out if you’d like to start a conversation.</p>
+              <p class="mb-0"></p>
             </div>
           </div>
         </div>
@@ -169,7 +144,9 @@
               <i class="icon bi bi-telephone flex-shrink-0"></i>
               <div>
                 <h3>Call Me</h3>
-                <p>+91 9943316256</p>
+                <p>+49 1521 5720743 <br>
+                  +91 9943316256
+                </p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -179,7 +156,9 @@
               <i class="icon bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h3>Email Us</h3>
-                <p>gokul.227.r@gmail.com</p>
+                <p>gokul.227.r@gmail.com<br>
+                  gokulraj22797@gmail.com
+                </p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -200,39 +179,41 @@
             </div>
           </div><!-- End Info Item -->
 
+        <div>
+    <!-- Contact Form -->
+    <form action="https://formsubmit.co/gokulraj22797@gmail.com" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="600">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://your-firebase-app.web.app/thank-you.html">
+      <div class="row gy-4">
+
+        <div class="col-md-6">
+          <input type="text" name="name" class="form-control" placeholder="Your Name" required>
         </div>
 
-        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="600">
-          <div class="row gy-4">
+        <div class="col-md-6">
+          <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+        </div>
 
-            <div class="col-md-6">
-              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-            </div>
+        <div class="col-md-12">
+          <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+        </div>
 
-            <div class="col-md-6 ">
-              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-            </div>
+        <div class="col-md-12">
+          <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+        </div>
 
-            <div class="col-md-12">
-              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-            </div>
+        <div class="col-md-12 text-center">
+          <div class="loading">Loading</div>
+          <div class="error-message"></div>
+          <div class="sent-message">Your message has been sent. Thank you!</div>
 
-            <div class="col-md-12">
-              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-            </div>
-
-            <div class="col-md-12 text-center">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-
-              <button type="submit">Send Message</button>
-            </div>
-
-          </div>
-        </form><!-- End Contact Form -->
+          <button type="submit">Send Message</button>
+        </div>
 
       </div>
+    </form><!-- End Contact Form -->
+
+</div>
 
     </section><!-- /Contact Section -->
 
@@ -252,7 +233,7 @@ Built for performance. Designed for impact. Focused on real results.</p>
       </div>
       <div class="container">
         <div class="copyright">
-        <!--  <span>Copyright</span> <strong class="px-1 sitename">Personal</strong> <span>All Rights Reserved</span>-->
+        <!--  <span>Copyright</span> <strong class="px-1 sitename">Gokul</strong> <span>All Rights Reserved</span>-->
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
